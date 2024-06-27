@@ -3,6 +3,7 @@ FROM node
 # 실행되어야하는 폴더의 위치를 지정할수있다.
 WORKDIR /app
 
+# package.json을 저장함
 COPY package.json /app
 
 #노드 종속을 위해서 npm install 해야함
